@@ -21,6 +21,7 @@ set(SOURCES
   Indexing.cpp
   FatalErrorHandler.cpp
   Rewrite.cpp
+  DelphiExtension.cpp
 
   ADDITIONAL_HEADERS
   CIndexDiagnostic.h
@@ -33,6 +34,7 @@ set(SOURCES
   CXType.h
   Index_Internal.h
   ../../include/clang-c/Index.h
+  ../../include/clang-c/DelphiExtension.h
   )
 
 set(LIBS
